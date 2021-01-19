@@ -1,5 +1,6 @@
                 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-                * {
+                
+		* {
                     margin: 0;
                     padding: 0;
                     box-sizing: border-box;
@@ -75,11 +76,10 @@
                 
                 .container .card .content h2 {
                     position: absolute;
-                    top: -80px;
+                    top: -50px;
                     right: 30px;
                     font-size: 2em;
                     pointer-events: none;
-                    padding: 10px;
                     color: rgba(255, 255, 255, 0.349);
                     font-weight: 600;
                 }
@@ -94,7 +94,7 @@
                 
                 .container .card .content h4 {
                     font-size: 15px;
-                    color: #ebebeb6b;
+                    color: #ebebeb;
                     z-index: 1;
                     font-weight: 400;
                     padding-top: 10px;
@@ -254,7 +254,7 @@
                     align-items: center;
                 }
 
-  .container .card_sub {
+  		.container .card_sub {
                     position: relative;
                     width: 600px;
                     height: 1000px;
@@ -302,3 +302,10 @@
                     font-weight: 500;
                     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
                 }
+
+   		
+		.navbar .container-fluid a:hover {
+                    color: rgb(140, 0, 255);
+                }
+
+                
