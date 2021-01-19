@@ -1,0 +1,35 @@
+
+body {
+background: #ae0fff;
+}
+
+.container {
+margin-top: 12%;
+}
+
+.single-content {
+transition: .3s;
+box-shadow: 10px 20px 20px rgba(0,0,0,.8);
+}
+.single-content .text-content, .single-content:after {
+
+position: relative;
+left: 20px;
+right: 20px;
+
+}
+
+
+.single-content:after {
+content: '';
+display: block;
+background: pink;
+top: 20px;
+bottom: 20px;
+opacity: 0;
+transform: rotate3d(-1,1,0,100deg);
+transition: .4s;
+
+}
+
+

@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://cloudship999.com/$1 [L,R=301]
+
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.cloudship999\.com [NC]
+RewriteRule ^(.*)$ https://cloudship999.com/$1 [L,R=301]
